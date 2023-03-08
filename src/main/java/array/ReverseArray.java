@@ -18,4 +18,17 @@ public class ReverseArray {
         System.out.println(Arrays.toString(array));
     }
 
+    private static void reverseArray2(int[] array) {
+        int start = 0;
+        int end = array.length-1;
+        while (start < end) {
+            int temp = array[start];
+            array[start] = array[end];
+            array[end] = temp;
+            start++;
+            end--;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+
 }
