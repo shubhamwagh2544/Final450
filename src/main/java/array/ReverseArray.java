@@ -1,4 +1,21 @@
 package array;
 
+import org.apache.commons.lang3.ArrayUtils;
+
+import java.util.Arrays;
+
 public class ReverseArray {
+    public static void main(String[] args) {
+        int[] array = {1, 2, 3, 4, 5};
+        reverseArray(array);
+    }
+
+    private static void reverseArray(int[] array) {
+        /*
+            using ArrayUtils.reverse() method : commons.lang3
+         */
+        ArrayUtils.reverse(array);
+        System.out.println(Arrays.toString(array));
+    }
+
 }
