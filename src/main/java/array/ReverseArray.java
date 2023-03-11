@@ -1,10 +1,10 @@
 package array;
 
-import com.google.common.collect.Collections2;
-import com.google.common.primitives.Ints;
 import org.apache.commons.lang3.ArrayUtils;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class ReverseArray {
