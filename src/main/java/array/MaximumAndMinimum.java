@@ -50,6 +50,11 @@ public class MaximumAndMinimum {
         System.out.println("Min : " + array[array.length-1]);
     }
     private static void getMaxAndMinInHalfComparisons(int[] array) {
+        /*
+                half comparisons => n/2
+                TC : O(n/2) => O(n)
+                SC : O(1)
+         */
         boolean flag = true;
         if (array.length % 2 != 0) {
             flag = false;
